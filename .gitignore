@@ -1,6 +1,5 @@
 
 
-.env
 someinfoinbot.md
 testo.py
 users.db
@@ -11,8 +10,10 @@ __database_v2_test.py
 db/database_v2.py
 old_database.py
 __database_v2_t.py
-
-
+mainv2.py
+SomeAppForSm_session.session
+te_te_te.py
+db/groups*
 
 # штуки, которые записаны при создании репозитория на github, если выбрать такой параметр:
 

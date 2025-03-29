@@ -1,4 +1,26 @@
-pip install telethon
+функциональные требования:
+оставлять комментарии в каналах с определенной тематикой или с определенными заранее словами
+
+возможно, отдельно через телегобота реализовать:
+- звапуск парсинга своих групп / каналов для добавления в список
+- ручное отправление 
+
+- меню состоит из:
+        ✅ - создать БД, если ее нет 
+
+        ✅ - посмотреть список групп, которые уже есть в списке рассылки
+        включают в себя: название группы, описание
+
+        - получить из бд список групп, чтобы отправить рассылку с определенным текстом в этот список групп. 
+        Проверить нет ли уже отправленного сообщения, отправлять только в новые посты
+
+        - отправить сообщения из чата / название чата в ...
+        после чего это парсить и добавлять в список групп
+
+        - включить парсинг селф-групп для добавления в бд и добавлять их
+
+        - список слов, которые надо искать в описаниях групп: показывать / менять
+
 
 
 
@@ -37,3 +59,12 @@ pip install telethon
                 https://pytest-cov.readthedocs.io/en/latest/readme.html
                 https://habr.com/ru/articles/448798/
                 https://habr.com/ru/articles/448782/
+
+- telethon
+        pip install telethon
+        https://docs-python.ru/packages/telegram-klient-telethon-python/
+        https://docs-python.ru/packages/telegram-klient-telethon-python/osvoenie-asyncio-ispolzovaniia-telethon/
+        https://skillbox.ru/media/code/parsim-dannye-v-telegram-na-python-chast-1/
+        https://habr.com/ru/articles/874412/
+        https://pypi.org/project/Telethon/
+        https://docs.telethon.dev/en/stable/                
